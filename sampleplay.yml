@@ -1,0 +1,7 @@
+---
+- name: Ping Test on Linux Servers
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Ping the Linux servers
+      ping:
